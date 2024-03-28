@@ -267,7 +267,7 @@
           <form class="*:flex *:flex-col *:gap-1 mt-5 md:w-2/3 w-full" id="contactForm">
             <div class="">
               <label for="name">Nome</label>
-              <input type="text" id="name" placeholder="Digite seu nome" />
+              <input type="text" id="name" placeholder="Digite seu nome" required/>
             </div>
             <div class="">
               <label for="email">Endereço de Email</label>
@@ -275,11 +275,12 @@
                 type="email"
                 id="email"
                 placeholder="Digite seu E-mail"
+                 required
               />
             </div>
             <div class="">
               <label for="msg">Mensagem</label>
-              <textarea id="msg" placeholder="Digite sua mensagem"></textarea>
+              <textarea id="msg" placeholder="Digite sua mensagem" required></textarea>
             </div>
             <button class="btn btn-filled ml-auto">Enviar</button>
           </form>
