@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/Curriculo/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tailwind Portfolio</title>
+
+    <!-- font awesome icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script type="module" crossorigin src="/Curriculo/assets/index-D-LhFrea.js"></script>
+    <link rel="stylesheet" crossorigin href="/Curriculo/assets/index-GmxXlG9m.css">
+  </head>
+  <body class="dark:bg-slate-900 dark:text-gray-200">
+    <!-- header -->
+    <header class="fixed w-full py-4 lg:px-0 px-5 z-[999] duration-300">
+      <nav class="flex justify-between items-center max-w-6xl mx-auto px-2">
+<div class="flex gap-4 items-center">
+  <div class="bg-primary text-white rounded-full size-10 text-xl flex-center">E</div>
+  <div>
+    <h4 class="font-bold text-lg uppercase">
+      Edgar
+    </h4>
+  <p class="text-xs">Perfil</p>
+  </div>
+</div >
+<ul class="md:flex hidden gap-10 hover:*:text-primary *:duration-200">
+  <li>
+<a href="#home">Início</a>
+</li>
+  <li>
+<a href="#about">Sobre Mim</a>
+</li>
+  <li>
+<a href="#projects">Projetos</a>
+</li>
+<li>
+  <a href="#contact">Contato</a>
+  </li>
+  <span class="theme-switch md:block hidden">
+    <i class="fa-solid fa-circle-half-stroke cursor-pointer"></i>
+  </span>
+</ul>
+<div class="flex items-center gap-6">
+  <a href="#contact">
+    <button class="btn btn-outline md:!flex !hidden">
+      <i class="fa-regular fa-paper-plane"></i>
+      Vamos Conversar!
+    </button>
+  </a>
+  <span class="theme-switch md:hidden">
+    <i class="fa-solid fa-circle-half-stroke cursor-pointer"></i>
+  </span>
+  <span id="menubar" class="cursor-pointer md:hidden text-xl">
+    <i class="fa-solid fa-bars"></i>
+  </span>
+</div>
+      </nav>
+    </header>
+
+    <!-- backdrop -->
+    <span id="backdrop" class="fixed h-screen bg-black/10 inset-0 backdrop-blur-sm z-[997] hidden"></span>
+
+    <!-- mobile nav -->
+    <ul id="mobile-nav" class="gap-10 text-xl md:hidden dark:bg-slate-800 bg-primary text-white flex-center flex-col fixed w-full h-0 overflow-hidden bottom-0 duration-200 rounded-t-3xl left-0 z-[998]">
+      <li>
+        <a href="#home">Início</a>
+        </li>
+          <li>
+        <a href="#about">Sobre Mim</a>
+        </li>
+          <li>
+        <a href="#projects">Projetos</a>
+        </li>
+        <li>
+          <a href="#contact">Contato</a>
+          </li>
+    </ul>
+
+    <!-- Home -->
+    <section id="home" class="min-h-screen container grid place-items-center relative before:absolute before:top-0 before:bg-heroLight before:size-full before:start-1/2 before:transform before:-translate-x-1/2 before:bg-no-repeat before:-z-[1] before:dark:bg-heroDark">
+      <div class="size-full pt-20 grid  md:grid-cols-6 items-center justify-around max-w-6xl">
+        <div class="lg:col-span-2 md:col-span-3 md:text-left text-center sm:pl-2">
+          <div>
+            <h5 class="font-medium text-gray-600 dark:text-gray-200">Olá Mundo!</h5>
+            <h1 class="sm:text-4xl text-3xl !leading-normal dark:text-white relative font-medium">Sou <span class="text-primary">Edgar</span><br>Engenheiro da Computação</h1>
+            <button class="btn btn-filled mt-5">
+              <i class="fa-regular fa-envelope"></i>
+              Contrate
+            </button>
+
+            <button class="font-semibold dark:text-gray-200 border-b-2 border-gray-700 ml-4 transition duration-300 hover:border-primary">
+              <i class="fa-solid fa-up-right-from-square"></i>
+              Portfolio
+            </button>
+
+            <div class="md:w-96 md:ml-auto flex mt-9 gap-2 dark:text-gray-300">
+              <i class="fa-solid fa-border-all mt-0.5 md:inline-block hidden"></i>
+              <p class="text-xs text-balance leading-5 max-w-md mx-auto">Apaixonado por tecnologia com um talento para design de sites, edição de vídeos e um entusiasmo por aprender. Ansioso para aplicar e aprimorar minhas habilidades em um ambiente tecnológico dinâmico.</p>
+            </div>
+            <div class="flex items-center md:justify-end justify-center mt-9 gap-6 dark:text-gray-200 text-gray-600">
+              <p class="text-xs">Redes Sociais:</p>
+              <div class="flex gap-3">
+                <a href="#" class="social-icon">
+                  <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="#" class="social-icon">
+                  <i class="fa-brands fa-linkedin"></i>
+                </a>
+                <a href="#" class="social-icon">
+                  <i class="fa-brands fa-codepen"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="lg:col-span-2 md:col-span-3">
+          <img src="https://i.imgur.com/fBoy0cO.png" class="md:w-80 w-2/3 max-w-96 md:mt-0 mt-5 mx-auto rounded-full" alt="Foto do Edgar">
+        </div>
+
+        <div class="lg:col-span-2 md:col-span-6 lg:bg-gradient-to-l md:bg-none bg-gradient-to-l from-gray-100 dark:from-slate-800 md:mt-0 mt-2 lg:h-96 md:h-auto h-96">
+          <ul class="text-2xl leading-[3.14rem] text-center pt-5 lg:block md:flex items-center justify-between data-[slot=count]:*:font-bold ">
+            <li data-slot="count">6+</li>
+            <li>Linguagens de <span class="text-primary">Programação</span></li>
+            <br>
+            <li data-slot="count">8+</li>
+            <li>Finalizações de <span class="text-primary">Projetos</span> </li>
+            <button class="btn btn-outline lg:mt-10 md:mt-0 mt-10">
+              <i class="fa-solid fa-download"></i>
+              Baixar Currículo
+            </button>
+        </ul>
+        </div>
+      </div>
+  
+    </section>
+
+    <!-- About -->
+ <section id="about" class="container min-h-screen flex-center">
+  <div class="">
+    <div class="text-center text-balance">
+      <h3>O Que Eu Sei</h3>
+      <p class="px-2 mt-3 text-gray-500">
+        Com uma paixão incessante por tecnologia e design, eu me especializei em trazer ideias à vida digitalmente. Minha jornada no mundo do desenvolvimento web e design gráfico me permitiu dominar uma gama de habilidades técnicas, desde o esboço de interfaces intuitivas até a implementação de soluções web complexas com foco em usabilidade, acessibilidade e estética.
+      </p>
+      
+    </div>
+    <div
+      class="max-w-2xl grid md:grid-cols-1 gap-6 px-2 sm:grid-cols-3 *:text-lg *:sm:max-w-full *:max-w-sm hover:*:brightness-90 *:mx-auto *:sm:text-left *:text-center *:hover:cursor-pointer *:shadow-sm mt-10 mx-auto *:rounded-xl *:bg-gray-100 *:dark:bg-slate-800 *:p-7 *:flex *:md:flex-row *:flex-col *:items-center *:gap-12"
+    >
+      <div>
+        <div class="*:text-primary">
+          <i class="fa-regular fa-object-ungroup"></i>
+          <h6 class="font-semibold whitespace-nowrap mt-3">
+            Design de Website
+          </h6>
+        </div>
+        <div>
+          <p
+            class="text-xs text-gray-600 dark:text-gray-400 leading-5 text-balance"
+          >
+          Especializado em criar designs de websites que não apenas parecem esteticamente agradáveis, mas também oferecem uma experiência de usuário fluida e intuitiva. Utilizo princípios de design moderno para garantir que cada página seja acessível e responsiva.
+
+          </p>
+        </div>
+        <i
+          class="fa-solid fa-arrow-up-long text-primary rotate-45 cursor-pointer"
+        ></i>
+      </div>
+      <div>
+        <div class="*:text-primary">
+          <i class="fa-solid fa-video"></i>
+          <h6 class="font-semibold whitespace-nowrap mt-3">Edição de Vídeo</h6>
+        </div>
+        <div>
+          <p
+            class="text-xs text-gray-600 dark:text-gray-400 leading-5 text-balance"
+          >
+          Com habilidades em edição de vídeo, transformo gravações brutas em conteúdos cativantes, adequados para plataformas digitais. Meu foco está em contar histórias visuais impactantes que engajam e informam o público.
+
+          </p>
+        </div>
+        <i
+          class="fa-solid fa-arrow-up-long text-primary rotate-45 cursor-pointer"
+        ></i>
+      </div>
+      <div>
+        <div class="*:text-primary">
+          <i class="fa-solid fa-people-group"></i>
+          <h6 class="font-semibold whitespace-nowrap mt-3">Trabalho em Equipe</h6>
+        </div>
+        <div>
+          <p
+            class="text-xs text-gray-600 dark:text-gray-400 leading-5 text-balance"
+          >
+          Acredito firmemente no poder do trabalho em equipe para alcançar resultados extraordinários. Minha experiência inclui colaborar com equipes multidisciplinares, onde contribuo com minhas habilidades técnicas ao mesmo tempo em que aprendo com os talentos únicos de cada membro.
+
+          </p>
+        </div>
+        <i
+          class="fa-solid fa-arrow-up-long text-primary rotate-45 cursor-pointer"
+        ></i>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <!-- Projects -->
+    <section id="projects" class="container min-h-screen flex-center">
+      <div class="text-center text-balance">
+        <h3>My Projects</h3>
+        <p class="px-2 mt-3 text-gray-500">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime itaque
+          totam, ut asperiores placeat saepe earum molestias deleniti,
+          repudiandae animi sit laudantium aliquam delectus assumenda numquam
+          ab. Dolorum, illo laborum!
+        </p>
+
+        <br />
+        <div class="flex-center gap-4">
+          <button class="btn btn-filled">Website</button>
+          <button class="btn btn-outline">Mobile App</button>
+          <button class="btn btn-outline">Figma</button>
+        </div>
+        <br />
+        <div
+          class="*:w-full grid mx-auto md:grid-rows-2 md:grid-cols-2 max-w-4xl md:px-0 px-10 *:h-full *:object-cover *:border-4 *:dark:border-white *:rounded-md gap-4 *:cursor-pointer group hover:*:!grayscale-0 *:hover:grayscale *:duration-1000"
+        >
+          <img class="" src="/Curriculo/assets/pro1-BTWMzaTy.jpg" alt="" />
+          <img src="/Curriculo/assets/pro3-BhUIQVIu.jpg" class="row-span-2" alt="" />
+          <img src="/Curriculo/assets/pro2-CpW1FIxD.jpg" class="" alt="" />
+        </div>
+      </div>
+    </section>
+    <!-- Contact -->
+    <section
+    id="contact"
+    class="container relative max-w-4xl mx-auto min-h-screen flex-center px-5"
+  >
+    <div class="pb-10">
+      <div class="text-center">
+        <h3>Contato</h3>
+        <p class="px-2 mt-3 text-gray-500">
+          Estou sempre aberto a discutir novos projetos, ideias criativas ou oportunidades de colaboração. Não hesite em entrar em contato comigo através das informações abaixo ou me seguir nas redes sociais.
+
+        </p>
+      </div>
+      <div
+        class="mt-12 md:relative flex flex-col gap-5 sm:max-w-full mx-auto max-w-xs"
+      >
+        <div
+          class="dark:bg-slate-800 bg-slate-50 dark:text-gray-100 text-gray-800 rounded-lg shadow-xl mx-auto md:w-2/3 py-14 px-7 w-full"
+        >
+          <h3 class="font-semibold text-3xl">
+            Fale <br /><span class="text-primary">Comigo</span>!
+          </h3>
+          <form class="*:flex *:flex-col *:gap-1 mt-5 md:w-2/3 w-full">
+            <div class="">
+              <label for="name">Nome</label>
+              <input type="text" id="name" placeholder="Digite seu nome" />
+            </div>
+            <div class="">
+              <label for="email">Endereço de Email</label>
+              <input
+                type="email"
+                id="email"
+                placeholder="Digite seu E-mail"
+              />
+            </div>
+            <div class="">
+              <label for="msg">Mensagem</label>
+              <textarea id="msg" placeholder="Digite sua mensagem"></textarea>
+            </div>
+            <button class="btn btn-filled ml-auto">Enviar</button>
+          </form>
+        </div>
+        <div
+          class="dark:bg-gray-700 bg-white py-12 px-7 md:absolute lg:-right-9 right-28 rounded-xl shadow-xl md:w-2/5 h-5/6 top-28 w-full mx-auto"
+        >
+        <h3 class="font-semibold text-2xl border-b pb-4 border-gray-600">
+          Colabore Comigo <br />em <span class="text-primary">Novos Projetos</span>.
+        </h3>
+        
+          <div class="py-4">
+            <p class="text-xs text-gray-400 leading-5">
+              Aberto a explorar novas ideias e projetos desafiadores. Juntos, podemos transformar conceitos em realidade e alcançar resultados excepcionais.
+            </p>
+            <ul class="*:flex *:gap-4 *:items-center *:mt-4">
+              <li>
+                <i class="fa-solid fa-location-dot"></i>
+                <div>
+                  <h2>São Bernardo do Campo</h2>
+                  <address class="text-xs">Bairro Assunção</address>
+                </div>
+              </li>
+              <li>
+                <i class="fa-solid fa-envelope"></i>
+                <p>edgseabra@gmail.com</p>
+              </li>
+              <li>
+                <i class="fa-solid fa-phone"></i>
+                <p>+55 (11) 94452-6097</p>
+              </li>
+            </ul>
+            <div
+              class="flex items-center md:justify-end justify-center dark:text-gray-200 text-gray-600 gap-6 mt-9"
+            >
+              <p class="text-xs">Follow Us</p>
+              <div class="flex justify-end gap-3">
+                <a href="#" class="social-icon">
+                  <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="#" class="social-icon">
+                  <i class="fa-brands fa-linkedin"></i>
+                </a>
+                <a href="#" class="social-icon">
+                  <i class="fa-brands fa-codepen"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+    <!-- Footer -->
+    <footer class="dark:bg-slate-700 bg-slate-100 text-center py-2">
+      <p>Feito com <i class="fa-solid fa-heart text-pink-500"></i> por EdgarCSR</p>
+      <ul class="flex justify-center gap-5 py-4 text-sm">
+        <li>
+          <a href="home">Início</a>
+        </li>
+        <li>
+          <a href="about">Sobre Mim</a>
+        </li>
+        <li><a href="projects">Projetos</a></li>
+        <li>
+          <a href="contact">Contato</a>
+        </li>
+      </ul>
+    </footer>    
+
+    <!-- sticky nav script -->
+    <script>
+      const header = document.querySelector("header");
+
+      const toggleClasses = (element, classes, condition) => {
+        classes.forEach((className) => {
+          element.classList.toggle(className, condition);
+        });
+      };
+
+      window.addEventListener("scroll", () => {
+        toggleClasses(
+          header,
+          [
+            "shadow-lg",
+            "dark:sm:bg-slate-900",
+            "dark:bg-slate-800",
+            "dark:text-white",
+            "bg-white",
+          ],
+          window.scrollY > 0
+        );
+      });
+    </script>
+    
+  </body>
+</html>
