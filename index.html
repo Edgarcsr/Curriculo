@@ -2,9 +2,16 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/Curriculo/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tailwind Portfolio</title>
+    <title>Currículo do Edgar</title>
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/Curriculo/assets/apple-touch-icon-B5BmP9TX.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/Curriculo/assets/favicon-32x32-DT2w_yML.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/Curriculo/assets/favicon-16x16-BitHm7cq.png">
+<link rel="manifest" href="/Curriculo/assets/site-B9Ae890R.webmanifest">
+<link rel="mask-icon" href="data:image/svg+xml,%3c?xml%20version='1.0'%20standalone='no'?%3e%3c!DOCTYPE%20svg%20PUBLIC%20'-//W3C//DTD%20SVG%2020010904//EN'%20'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'%3e%3csvg%20version='1.0'%20xmlns='http://www.w3.org/2000/svg'%20width='700.000000pt'%20height='700.000000pt'%20viewBox='0%200%20700.000000%20700.000000'%20preserveAspectRatio='xMidYMid%20meet'%3e%3cmetadata%3e%20Created%20by%20potrace%201.14,%20written%20by%20Peter%20Selinger%202001-2017%20%3c/metadata%3e%3cg%20transform='translate(0.000000,700.000000)%20scale(0.100000,-0.100000)'%20fill='%23000000'%20stroke='none'%3e%3cpath%20d='M1170%206985%20c-597%20-101%20-1059%20-567%20-1156%20-1164%20-21%20-128%20-21%20-4514%200%20-4642%2098%20-601%20564%20-1067%201165%20-1165%2072%20-12%20462%20-14%202322%20-14%202416%200%202295%20-2%202488%2051%20453%20126%20834%20507%20960%20960%2053%20193%2051%2072%2051%202488%200%202398%202%202301%20-50%202485%20-124%20443%20-473%20807%20-913%20950%20-201%2066%2016%2060%20-2507%2062%20-1815%202%20-2300%20-1%20-2360%20-11z%20m3492%20-1622%20c25%20-58%2035%20-181%2019%20-240%20-13%20-49%20-51%20-97%20-95%20-121%20-28%20-16%20-102%20-17%20-918%20-20%20l-888%20-3%200%20-609%200%20-610%20834%200%20833%200%2021%20-55%20c29%20-75%2036%20-142%2023%20-206%20-15%20-70%20-46%20-114%20-97%20-139%20-39%20-19%20-63%20-20%20-827%20-20%20l-787%200%200%20-665%200%20-665%20946%200%20945%200%2022%20-47%20c29%20-65%2036%20-197%2012%20-258%20-20%20-53%20-72%20-102%20-117%20-110%20-18%20-3%20-505%20-5%20-1083%20-3%20l-1050%203%20-41%2022%20c-53%2028%20-107%2091%20-122%20142%20-17%2055%20-17%203427%200%203482%2020%2070%2091%20136%20168%20160%2014%204%20510%208%201103%208%20l1078%201%2021%20-47z'/%3e%3c/g%3e%3c/svg%3e" color="#f5a623">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
 
     <!-- font awesome icons -->
     <link
@@ -90,12 +97,14 @@
           <div>
             <h5 class="font-medium text-gray-600 dark:text-gray-200">Olá Mundo!</h5>
             <h1 class="sm:text-4xl text-3xl !leading-normal dark:text-white relative font-medium">Sou <span class="text-primary">Edgar</span><br>Engenheiro da Computação</h1>
-            <button class="btn btn-filled mt-5">
+              <!-- Botão Contrate -->
+            <button class="btn btn-filled mt-5" onclick="scrollToSection('contact')">
               <i class="fa-regular fa-envelope"></i>
               Contrate
             </button>
 
-            <button class="font-semibold dark:text-gray-200 border-b-2 border-gray-700 ml-4 transition duration-300 hover:border-primary">
+            <!-- Botão Portfolio -->
+            <button class="font-semibold dark:text-gray-200 border-b-2 border-gray-700 ml-4 transition duration-300 hover:border-primary" onclick="scrollToSection('projects')">
               <i class="fa-solid fa-up-right-from-square"></i>
               Portfolio
             </button>
@@ -218,12 +227,9 @@
     <!-- Projects -->
     <section id="projects" class="container min-h-screen flex-center">
       <div class="text-center text-balance">
-        <h3>My Projects</h3>
+        <h3>Meus Projetos</h3>
         <p class="px-2 mt-3 text-gray-500">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime itaque
-          totam, ut asperiores placeat saepe earum molestias deleniti,
-          repudiandae animi sit laudantium aliquam delectus assumenda numquam
-          ab. Dolorum, illo laborum!
+          Exploro a tecnologia para criar soluções inovadoras e projetos impactantes. Meu portfólio reflete minha paixão por desenvolvimento web e design, apresentando trabalhos que combinam funcionalidade e estética. Cada projeto é um passo em minha jornada contínua de aprendizado e crescimento profissional.
         </p>
 
         <br />
@@ -316,7 +322,7 @@
             <div
               class="flex items-center md:justify-end justify-center dark:text-gray-200 text-gray-600 gap-6 mt-9"
             >
-              <p class="text-xs">Follow Us</p>
+              <p class="text-xs">Redes Sociais</p>
               <div class="flex justify-end gap-3">
                 <a href="https://github.com/Edgarcsr" class="social-icon" target="_blank">
                   <i class="fa-brands fa-github"></i>
@@ -375,7 +381,17 @@
         );
       });
     </script>
-    
+    <!-- Botões home -->
+    <script>
+      function scrollToSection(sectionId) {
+        // Encontrar a seção pelo ID
+        const section = document.getElementById(sectionId);
+        
+        // Rolar para a seção
+        section.scrollIntoView({ behavior: 'smooth' });
+      }
+      </script>
+      
     <!-- Script para Whatsapp: -->
     <script>
       document.getElementById('contactForm').addEventListener('submit', function(event) {
